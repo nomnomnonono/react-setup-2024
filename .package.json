@@ -17,8 +17,6 @@
     "fix:prettier": "prettier . --write",
     "fix:eslint": "eslint . --ext .ts,.tsx --fix",
     "prepare": "husky install",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.2.0",
