@@ -7,7 +7,7 @@ packageJson["lint-staged"] = {
   "*": "prettier --write --ignore-unknown",
 };
 
-packageJson.scripts = {
+packageJson["scripts"] = {
   dev: "vite",
   build: "tsc && vite build",
   preview: "vite preview",
