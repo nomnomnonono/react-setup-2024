@@ -21,8 +21,6 @@ packageJson["scripts"] = {
   "fix:prettier": "prettier . --write",
   "fix:eslint": "eslint . --ext .ts,.tsx --fix",
   prepare: "husky install",
-  storybook: "storybook dev -p 6006",
-  "build-storybook": "storybook build",
 };
 
 writeFileSync("package.json", JSON.stringify(packageJson, null, 2));
